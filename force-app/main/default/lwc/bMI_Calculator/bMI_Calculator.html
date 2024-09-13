@@ -4,28 +4,41 @@
             <h1>Calculadora IMC</h1>
             <form>
                 <div class="slds-form-element">
-                    <label class="slds-form-element__label" for="text-input-height">
+                    <label class="slds-form-element__label slds-text-title_bold" for="text-input-height">
                         Altura (cm)
                     </label>
                     <div class="slds-form-element__control">
-                        <input type="text" id="text-input-height" placeholder="Placeholder text…" required=""
+                        <input type="text" id="text-input-height" 
+                        placeholder="Digite a sua altura (em centímetros)…" 
+                        required
+                            class="slds-input" />
+                    </div>
+                </div>
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label slds-text-title_bold" for="text-input-weight">
+                        Peso (Kg)
+                    </label>
+                    <div class="slds-form-element__control">
+                        <input type="text" id="text-input-weight" 
+                        placeholder="Digite o seu peso (em quilogramas)…" 
+                        required
                             class="slds-input" />
                     </div>
                 </div>
             </form>
+
             <div class="info-wrapper">
-                <h2>What your BMI means</h2>
-                <p class="slds-var-m-bottom_medium">Once you have measured your BMI, you can determine your healthy
-                    weight range. If your BMI is: </p>
-                <h3 class="slds-text-color_error slds-text-heading_medium">Under 18.5</h3>
-                <p class="slds-var-m-bottom_medium">You are very underweight and possibly malnourished.</p>
-                <h3 class="slds-text-color_success slds-text-heading_medium">Between 18.5 and 24.9</h3>
-                <p class="slds-var-m-bottom_medium">You have a healthy weight range for young and middle-aged adults.
+                <h2>O que seu IMC indica</h2>
+                <p class="slds-var-m-bottom_medium">Depois de medir seu IMC, você pode determinar sua faixa de peso saudável. Se seu IMC for: </p>
+                <h3 class="slds-text-color_error slds-text-heading_medium">Abaixo de 18.5</h3>
+                <p class="slds-var-m-bottom_medium">Você está muito abaixo do peso e possivelmente desnutrido.</p>
+                <h3 class="slds-text-color_success slds-text-heading_medium">Entre 18.5 e 24.9</h3>
+                <p class="slds-var-m-bottom_medium">Você tem uma faixa de peso saudável para adultos jovens e de meia-idade.
                 </p>
-                <h3 class="slds-text-color_error slds-text-heading_medium">25.0 to 29.9</h3>
-                <p class="slds-var-m-bottom_medium">You are overweight</p>
-                <h3 class="slds-text-color_error slds-text-heading_medium">Over 30</h3>
-                <p class="slds-var-m-bottom_medium">You are obese.</p>
+                <h3 class="slds-text-color_error slds-text-heading_medium">25.0 a 29.9</h3>
+                <p class="slds-var-m-bottom_medium">Você está com sobrepeso.</p>
+                <h3 class="slds-text-color_error slds-text-heading_medium">Acima de 30</h3>
+                <p class="slds-var-m-bottom_medium">Você está obeso.</p>
             </div>
         </div>
     </div>
